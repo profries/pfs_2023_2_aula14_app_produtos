@@ -1,5 +1,6 @@
 import 'w3-css/3/w3.css'
 import Carroussel from './components/Carroussel'
+import FormProdutos from './components/FormProdutos'
 import ListProdutos from './components/ListProdutos'
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
           </div>
           <Carroussel></Carroussel>
           <ListProdutos></ListProdutos>
+          <FormProdutos></FormProdutos>
           <div id="produtos" className="w3-row w3-container w3-margin-top"></div>
         </main>
 
