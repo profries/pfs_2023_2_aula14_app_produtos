@@ -1,5 +1,4 @@
 'use client'
-import 'w3-css/3/w3.css'
 
 export default function CardProduto ({produto}){
     return (
@@ -9,7 +8,7 @@ export default function CardProduto ({produto}){
                     <img src={produto.imagem} style={{width: "70%"}}/>
                     <h5>{produto.nome}</h5>
                     <h3 className="w3-blue">
-                        ${produto.preco.toLocaleString("pt-BR", {style:"currency", currency:"BRL"})}
+                        {produto.preco.toLocaleString("pt-BR", {style:"currency", currency:"BRL"})}
                     </h3>
                 </div>
             </div>

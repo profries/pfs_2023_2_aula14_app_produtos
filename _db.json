@@ -27,7 +27,7 @@
     },
     {
       "nome": "Produto 6",
-      "preco": "600",
+      "preco": 600,
       "id": 6
     }
   ]

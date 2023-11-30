@@ -24,13 +24,13 @@ export default function FormProdutos() {
 
     return(
         <form onSubmit={cadastrarProduto}>
-            <label for="nome">Nome:</label>
+            <label htmlFor="nome">Nome:</label>
             <input type="text" name="nome"
             value={nome}
             onChange={(ev) => setNome(ev.target.value)}>                
             </input>
             <br />
-            <label for="preco">Preço:</label>
+            <label htmlFor="preco">Preço:</label>
             <input type="number" name="preco"
             value={preco}
             onChange={(ev) => setPreco(ev.target.value)}>                

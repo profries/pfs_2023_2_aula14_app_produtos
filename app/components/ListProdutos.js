@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import CardProduto from "./CardProduto"
 import axios from "axios";
@@ -12,7 +12,7 @@ export default function ListProdutos() {
             .then(function(response) {
                 setListaProdutos(response.data);
             })
-    }, [listaProdutos])
+    }, [])
 
     return (
         listaProdutos.map((prod) => 
